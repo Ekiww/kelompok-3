@@ -24,7 +24,7 @@
                         <td>
                             <a href="?page=kategori_ubah&id=<?php echo $data['id_kategori']; ?>"
                                 class="btn btn-info">Ubah</a>
-                            <a onclick="return confirm('lu yakin nih nyet ngapus data ini?');"
+                            <a onclick="return confirm('yakin ingin menghapus data ini?');"
                                 href="?page=kategori_hapus&id=<?php echo $data['id_kategori']; ?>"
                                 class="btn btn-danger">Hapus</a>
                         </td>

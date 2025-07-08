@@ -18,8 +18,8 @@
         <td><?php echo $i++; ?></td>
         <td><?php echo $data['nama']; ?></td>
         <td><?php echo $data['judul']; ?></td>
-        <td><?php echo $data['tangal_peminjaman']; ?></td>
-        <td><?php echo $data['tangal_pengembalian']; ?></td>
+        <td><?php echo $data['tanggal_peminjaman']; ?></td>
+        <td><?php echo $data['tanggal_pengembalian']; ?></td>
         <td><?php echo $data['status_peminjaman']; ?></td>
     </tr>
     <?php

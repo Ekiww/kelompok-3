@@ -33,7 +33,7 @@
                         <td><?php echo $data['deskripsi']; ?></td>
                         <td>
                             <a href="?page=buku_ubah&id=<?php echo $data['id_buku']; ?>" class="btn btn-info">Ubah</a>
-                            <a onclick="return confirm('lu yakin nih nyet ngapus data ini?');"
+                            <a onclick="return confirm('yakin anda ingin menghapus data ini?');"
                                 href="?page=buku_hapus&id=<?php echo $data['id_buku']; ?>"
                                 class="btn btn-danger">Hapus</a>
                         </td>

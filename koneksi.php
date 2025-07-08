@@ -6,4 +6,5 @@ if (session_status() == PHP_SESSION_NONE) {
 
 $koneksi = mysqli_connect('localhost', 'root', '', 'kelompok_3');
 
+
 ?>

@@ -31,7 +31,7 @@
                         <td>
                             <a href="?page=ulasan_ubah&id=<?php echo $data['id_ulasan']; ?>"
                                 class="btn btn-info">Ubah</a>
-                            <a onclick="return confirm('lu yakin nih nyet ngapus data ini?');"
+                            <a onclick="return confirm('yakin ingin menghapus data ini?');"
                                 href="?page=ulasan_hapus&id=<?php echo $data['id_ulasan']; ?>"
                                 class="btn btn-danger">Hapus</a>
                         </td>

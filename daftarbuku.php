@@ -11,9 +11,9 @@
                         <th>judul</th>
                         <th>penulis</th>
                         <th>penerbit</th>
-                        <th>tahun.terbit</th>
+                        <th>tahun terbit</th>
                         <th>deskripsi</th>
-                        <th>Aksi</th>
+                        <!-- <th>Aksi</th> -->
                     </tr>
                 </thead>
                 <tbody>
